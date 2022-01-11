@@ -42,7 +42,7 @@ public class QuickSort {
         int n = arr.length;
 
         qs.sort(arr, 0, n - 1);
-        System.out.println("Sorted array: ");
+        System.out.println("Sorted array is: ");
         System.out.println(Arrays.toString(arr));
     }
 }
